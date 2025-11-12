@@ -1,0 +1,60 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled static libraries
+*.a
+*.lib
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executable files
+*.exe
+*.out
+*.elf
+
+# Backup and temporary files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Build directories
+/build/
+/bin/
+/debug/
+/release/
+
+# Logs and dumps
+*.log
+*.core
+*.stackdump
+
+# VSCode and other IDE/editor configs
+.vscode/
+.idea/
+*.code-workspace
+
+# macOS system files
+.DS_Store
+._*
+
+# clang or gcc cache
+.cache/
+clang-build/
+*.dSYM/
+
+# Environment or local config files
+.env
+*.local
+
+# Generated files during OS simulation/testing
+*.img
+*.iso
+*.disk
+*.mem
+*.dump
